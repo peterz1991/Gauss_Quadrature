@@ -1,3 +1,8 @@
+%
+% Open source code, provided by 
+% Yue Zhang, 12/03/2016.
+% Department of Mathematics, Applied Mathematics and Statistics.
+% Case Western Reserve University
 %% Functions of test
 f1 = @(x) 1./sqrt(1-x.^2); % pi
 f2 = @(x) exp(-1./x.^2);   % 2/e - 2*Sqrt(pi)*erfc(1)

@@ -2,6 +2,12 @@ function [J, D] = symmetrize_T(T)
 %-------------------------------------
 % Symmetrize a tri-diagnoal matrix
 % J = D^{-1}TD, D is a diagonal matrix
+%
+%
+% Open source code, provided by 
+% Yue Zhang, 12/03/2016.
+% Department of Mathematics, Applied Mathematics and Statistics.
+% Case Western Reserve University
 %-------------------------------------
 a = diag(T);
 w = diag(T,1);

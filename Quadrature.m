@@ -10,6 +10,12 @@ function I = Quadrature(f,n,type)
 %      = 'Gauss_Radau' // Gauss_Radau rules (one more node on boundary);
 %      = 'Gauss_Lobatto' // Gauss_Lobatto rules (two more nodes);
 %      = 'Anti_Gauss' // Anti-Gauss Rules;
+%
+%
+% Open source code, provided by 
+% Yue Zhang, 12/03/2016.
+% Department of Mathematics, Applied Mathematics and Statistics.
+% Case Western Reserve University
 %-------------------------------------------
 
 if strcmp(type,'Gauss') == 1

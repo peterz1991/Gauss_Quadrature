@@ -1,6 +1,12 @@
 function Jk = Jacobi(k,polynomial_name)
 %----------------------------------------
 % Construct a k x k Jacobi matrix of certain ONPs.
+%
+%
+% Open source code, provided by 
+% Yue Zhang, 12/03/2016.
+% Department of Mathematics, Applied Mathematics and Statistics.
+% Case Western Reserve University
 %----------------------------------------
 
 if strcmp(polynomial_name,'Legendre')==1
